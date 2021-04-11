@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+}
+#animation1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 2, 2);
+    animation-name: animacio1;
+    animation-duration: 10s;
+
+}
+@keyframes animacio1 {
+        0%   {background-color: red;}
+        10%  {background-color: yellow;}
+        20%  {background-color: blue;}
+        30% {background-color: green;}
+        40% {background-color: purple;}
+        50% {background-color: gray;}
+        60% {background-color: black;}
+        70% {background-color: white;}
+        80% {background-color: violet;}
+        90% {background-color: turquoise;}
+        100% {background-color: blueviolet;}
+      
+  }
