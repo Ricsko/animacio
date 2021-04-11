@@ -10,6 +10,7 @@ body{
     background-color: rgb(2, 2, 2);
     animation-name: animacio1;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
 @keyframes animacio1 {
@@ -33,12 +34,30 @@ body{
     background-color: red;
     position: relative;
     animation-name: animacio2;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 @keyframes animacio2 {
-0%   {background-color:red; left:0px; top:0px;}
-25%  {background-color:yellow; left:200px; top:0px;}
-50%  {background-color:blue; left:200px; top:200px;}
-75%  {background-color:green; left:0px; top:200px;}
-100% {background-color:red; left:0px; top:0px;}
+0%   {background-color:red; left: 0px;}
+25%  {background-color:yellow; left: 94%;}
+50%  {background-color:blue; left:0px;}
+75%  {background-color:green; left:94%;}
+100% {background-color:red; left:0px;}
+}
+#animation3{
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    position: relative;
+    animation-name: animacio3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacio3{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  
 }
