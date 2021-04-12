@@ -11,6 +11,7 @@ body{
     animation-name: animacio1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    transition: width 2s, height 2s;
 
 }
 @keyframes animacio1 {
@@ -27,6 +28,10 @@ body{
         100% {background-color: blueviolet;}
       
   }
+#animation1:hover{
+    width: 300px;
+    height: 300px;
+}
 
 #animation2{
     width: 100px;
