@@ -62,6 +62,7 @@ body{
     animation-name: animacio3;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    transition: width 2s, height 1s;
 }
 @keyframes animacio3{
     0%   {background-color:purple; left:0px; top:0px;}
@@ -70,4 +71,9 @@ body{
     75%  {background-color:gray; left:0px; top:200px;}
     100% {background-color:purple; left:0px; top:0px;}
   
+}
+
+#animation3:hover{
+    width: 500px;
+    height: 500px;
 }
