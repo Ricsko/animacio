@@ -41,6 +41,7 @@ body{
     animation-name: animacio2;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    transition: transform 2s;
 }
 @keyframes animacio2 {
 0%   {background-color:gray; left: 0px;}
@@ -49,6 +50,10 @@ body{
 75%  {background-color:green; left:94%;}
 100% {background-color:gray; left:0px;}
 }
+#animation2:hover{
+    transform: rotate(360deg);
+}
+
 #animation3{
     width: 100px;
     height: 100px;
